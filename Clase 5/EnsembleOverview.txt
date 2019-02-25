@@ -1,0 +1,1 @@
+Los ensamblajes permiten unir los resultados de diferentes modelos, de esta manera se aprovecha los características que puedan ser capturadas por cada uno de ellos, 
