@@ -9,8 +9,8 @@ app = Flask(__name__)
 api = Api(
     app, 
     version='1.0', 
-    title='Phishing Prediction API',
-    description='Phishing Prediction API')
+    title='Estimador de precio vehicular',
+    description='Ivan G.')
 
 ns = api.namespace('predict', 
      description='Phishing Classifier')
