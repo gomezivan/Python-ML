@@ -12,16 +12,23 @@ api = Api(
     title='Estimador de precio vehicular',
     description='Ivan G.')
 
-ns = api.namespace('predict', 
-     description='Phishing Classifier')
+ns = api.namespace('Predict', 
+     description='Predict price')
    
 parser = api.parser()
 
 parser.add_argument(
-    'URL', 
+    'MODEL', 
     type=str, 
     required=True, 
-    help='URL to be analyzed', 
+    help='Car Model', 
+    location='args')
+
+parser.add_argument(
+    'MAKER', 
+    type=str, 
+    required=True, 
+    help='Car Maker', 
     location='args')
 
 resource_fields = api.model('Resource', {
@@ -42,4 +49,4 @@ class PhishingApi(Resource):
     
     
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False, host='0.0.0.0', port=8888)
+    app.run(debug=True, use_reloader=False, host='0.0.0.0', port=8889)
