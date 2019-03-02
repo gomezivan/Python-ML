@@ -24,13 +24,6 @@ parser.add_argument(
     help='Car Model', 
     location='args')
 
-parser.add_argument(
-    'MAKER', 
-    type=str, 
-    required=True, 
-    help='Car Maker', 
-    location='args')
-
 resource_fields = api.model('Resource', {
     'result': fields.String,
 })
