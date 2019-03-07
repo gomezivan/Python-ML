@@ -1,10 +1,16 @@
+#!/usr/bin/python
+from flask import Flask
+from flask_restplus import Api, Resource, fields
+from sklearn.externals import joblib
+from Model_PriceCars import predict_car_value
+
 app = Flask(__name__)
 
 api = Api(
     app, 
     version='1.0', 
     title='Estimador de precio vehicular',
-    description='Ivan G.')
+    description='Desarrollado por: Iván Gómez, Cristian Najera, Natalia Martínez')
 
 ns = api.namespace('Predict', 
      description='Predict price')
@@ -60,7 +66,7 @@ class PredPriceApi(Resource):
         args = parser.parse_args()
         
         return {
-         "result": predict_car_value() #predict_proba(args['URL'])
+         "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
         }, 200
     
     
