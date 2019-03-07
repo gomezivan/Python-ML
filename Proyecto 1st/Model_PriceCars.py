@@ -5,6 +5,9 @@ from sklearn.externals import joblib
 import sys
 import os
 
+def predict_car_value():
+    return 1234
+
 def predict_proba(url):
 
     clf = joblib.load(os.path.dirname(__file__) + '/phishing_clf.pkl') 
