@@ -5,17 +5,28 @@ from sklearn.externals import joblib
 import category_encoders as ce
 import sys
 import os
-
+BinEncoder = joblib.load('BinEncoder.pkl') 
+rf = joblib.load('RF_modelcars.pkl')
 
 def predict_car_value(Make_par, Model_par,State_par,Mileage_par,Year_par):
+       
     #Crear un dataframe y aplicar el encoder binario
     df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] ) 
-    BinEncoder = joblib.load('BinEncoder.pkl') 
+    df = createFeatures(df)
+    
     df2 = BinEncoder.transform(df)
     
-    rf = joblib.load('RF_modelcars.pkl') 
     value = rf.predict(df2)[0]
     return round(value)
+
+
+def createFeatures(data):
+    stateRate = pd.read_csv("StatesRate.csv")
+    data = data.set_index('State').join(stateRate.set_index('State')).reset_index()
+    data.Year = 2019-int(data.Year)
+    data["MakeModel4"] = data["Make"] + data["Model"].str[:4]
+    data=data.drop(['State'], axis=1)
+    return data
 
 
 
