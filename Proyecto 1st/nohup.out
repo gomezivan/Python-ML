@@ -1,0 +1,567 @@
+Traceback (most recent call last):
+  File "api.py", line 1, in <module>
+    app = Flask(__name__)
+NameError: name 'Flask' is not defined
+Traceback (most recent call last):
+  File "api.py", line 1, in <module>
+    app = Flask(__name__)
+NameError: name 'Flask' is not defined
+Traceback (most recent call last):
+  File "api.py", line 1, in <module>
+    app = Flask(__name__)
+NameError: name 'Flask' is not defined
+Traceback (most recent call last):
+  File "api.py", line 1, in <module>
+    app = Flask(__name__)
+NameError: name 'Flask' is not defined
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+40.117.34.30 - - [07/Mar/2019 04:57:50] "GET / HTTP/1.1" 200 -
+40.117.34.30 - - [07/Mar/2019 04:57:50] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+40.117.34.30 - - [07/Mar/2019 04:57:50] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+40.117.34.30 - - [07/Mar/2019 04:57:50] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+40.117.34.30 - - [07/Mar/2019 04:57:50] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+40.117.34.30 - - [07/Mar/2019 04:57:53] "GET /swagger.json HTTP/1.1" 200 -
+40.117.34.30 - - [07/Mar/2019 04:57:54] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+40.117.34.30 - - [07/Mar/2019 04:58:17] "GET /Predict/?Make=q&Model=q&State=q&Mileage=q&Year=q HTTP/1.1" 200 -
+66.249.88.174 - - [07/Mar/2019 16:22:33] "GET / HTTP/1.1" 200 -
+66.249.88.172 - - [07/Mar/2019 16:22:33] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+66.249.88.174 - - [07/Mar/2019 16:22:33] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+66.249.88.170 - - [07/Mar/2019 16:22:33] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+66.249.88.170 - - [07/Mar/2019 16:22:33] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+66.249.88.170 - - [07/Mar/2019 16:22:34] "GET /swagger.json HTTP/1.1" 200 -
+66.249.88.174 - - [07/Mar/2019 16:22:34] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+66.249.88.172 - - [07/Mar/2019 16:23:17] "GET /Predict/?Make=Ford&Model=Fiesta&State=FL&Mileage=30000&Year=2014 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 5, in <module>
+    import category_encoders as ce
+ModuleNotFoundError: No module named 'category_encoders'
+186.113.126.95 - - [07/Mar/2019 16:35:21] "GET / HTTP/1.1" 200 -
+186.113.126.95 - - [07/Mar/2019 16:35:21] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+186.113.126.95 - - [07/Mar/2019 16:35:22] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+186.113.126.95 - - [07/Mar/2019 16:35:22] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+186.113.126.95 - - [07/Mar/2019 16:35:22] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+186.113.126.95 - - [07/Mar/2019 16:35:24] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+186.113.126.95 - - [07/Mar/2019 16:35:24] "GET /swagger.json HTTP/1.1" 200 -
+186.113.126.95 - - [07/Mar/2019 16:35:56] "GET /Predict/?Make=Toyota&Model=Camry4dr&State=OH&Mileage=123388&Year=2020 HTTP/1.1" 200 -
+186.113.126.95 - - [07/Mar/2019 16:35:56] "GET /favicon.ico HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 5, in <module>
+    import category_encoders as ce
+ModuleNotFoundError: No module named 'category_encoders'
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 5, in <module>
+    import category_encoders as ce
+ModuleNotFoundError: No module named 'category_encoders'
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 5, in <module>
+    import category_encoders as ce
+ModuleNotFoundError: No module named 'category_encoders'
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+40.117.34.30 - - [07/Mar/2019 16:54:49] "GET / HTTP/1.1" 200 -
+40.117.34.30 - - [07/Mar/2019 16:54:52] "GET /swagger.json HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+40.117.34.30 - - [07/Mar/2019 16:55:04] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2015 HTTP/1.1" 200 -
+40.117.34.30 - - [07/Mar/2019 16:55:04] "GET /favicon.ico HTTP/1.1" 404 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+40.117.34.30 - - [07/Mar/2019 20:42:54] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2015 HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+40.117.34.30 - - [07/Mar/2019 20:43:00] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2014 HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+40.117.34.30 - - [07/Mar/2019 20:45:29] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2014 HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+40.117.34.30 - - [07/Mar/2019 20:45:35] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2013 HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+40.117.34.30 - - [07/Mar/2019 20:45:48] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2013 HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+40.117.34.30 - - [07/Mar/2019 20:45:56] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2019 HTTP/1.1" 200 -
+40.117.34.30 - - [08/Mar/2019 00:50:42] "GET / HTTP/1.1" 200 -
+40.117.34.30 - - [08/Mar/2019 00:50:42] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+40.117.34.30 - - [08/Mar/2019 00:50:42] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 304 -
+40.117.34.30 - - [08/Mar/2019 00:50:42] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+40.117.34.30 - - [08/Mar/2019 00:50:42] "GET /swaggerui/swagger-ui.css HTTP/1.1" 304 -
+40.117.34.30 - - [08/Mar/2019 00:50:45] "GET /swagger.json HTTP/1.1" 200 -
+66.249.88.172 - - [08/Mar/2019 00:57:29] "GET / HTTP/1.1" 200 -
+66.249.88.172 - - [08/Mar/2019 00:57:30] "GET /swagger.json HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+191.95.50.218 - - [08/Mar/2019 00:58:31] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2015 HTTP/1.1" 200 -
+191.95.50.218 - - [08/Mar/2019 00:58:32] "GET /favicon.ico HTTP/1.1" 404 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+66.249.88.174 - - [08/Mar/2019 00:58:33] "GET /Predict/?Make=Jeep&Model=Grand&State=FL&Mileage=43278&Year=2013 HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+191.95.50.218 - - [08/Mar/2019 00:59:29] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2015 HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+66.249.88.174 - - [08/Mar/2019 01:00:01] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2015 HTTP/1.1" 200 -
+66.249.88.170 - - [08/Mar/2019 01:00:01] "GET /favicon.ico HTTP/1.1" 404 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+66.249.88.30 - - [08/Mar/2019 01:00:11] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2013 HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+66.249.88.1 - - [08/Mar/2019 01:00:16] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2013 HTTP/1.1" 200 -
+52.41.29.166 - - [08/Mar/2019 10:34:40] "GET / HTTP/1.1" 200 -
+191.95.52.6 - - [08/Mar/2019 11:38:27] "GET /favicon.ico HTTP/1.1" 404 -
+196.52.43.86 - - [08/Mar/2019 11:48:17] "GET / HTTP/1.0" 200 -
+66.249.88.182 - - [08/Mar/2019 15:03:23] "GET /favicon.ico HTTP/1.1" 404 -
+185.209.0.42 - - [08/Mar/2019 17:55:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.209.0.42 - - [08/Mar/2019 17:55:40] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.234.217.67 - - [08/Mar/2019 20:08:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.234.217.67 - - [08/Mar/2019 20:08:44] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.234.217.67 - - [08/Mar/2019 20:08:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.234.217.67 - - [08/Mar/2019 20:08:44] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+122.228.19.79 - - [08/Mar/2019 23:54:40] "GET / HTTP/1.1" 200 -
+139.162.83.10 - - [09/Mar/2019 06:48:30] "GET / HTTP/1.1" 200 -
+185.92.73.133 - - [09/Mar/2019 17:19:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.92.73.133 - - [09/Mar/2019 17:19:16] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.232.65.60 - - [09/Mar/2019 19:51:40] "GET /v1/wallet/list_keys HTTP/1.1" 404 -
+195.154.61.206 - - [10/Mar/2019 08:11:40] "GET / HTTP/1.1" 200 -
+198.108.67.16 - - [10/Mar/2019 11:40:22] "GET / HTTP/1.1" 200 -
+81.22.45.128 - - [10/Mar/2019 16:05:37] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+81.22.45.128 - - [10/Mar/2019 16:05:37] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+81.22.45.128 - - [10/Mar/2019 17:17:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+81.22.45.128 - - [10/Mar/2019 17:17:11] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+107.6.171.130 - - [10/Mar/2019 19:22:08] "GET / HTTP/1.1" 200 -
+172.105.238.87 - - [11/Mar/2019 00:49:02] "GET / HTTP/1.1" 200 -
+/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/base.py:154: UserWarning: Loky-backed parallel loops cannot be nested below threads, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+40.117.34.30 - - [11/Mar/2019 01:01:54] "GET /Predict/?Make=Nissan&Model=MuranoAWD&State=MD&Mileage=31909&Year=2014 HTTP/1.1" 200 -
+40.117.34.30 - - [11/Mar/2019 01:01:55] "GET /favicon.ico HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 9, in <module>
+    rf = joblib.load('RF_modelcars.pkl')
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 598, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 526, in _unpickle
+    obj = unpickler.load()
+  File "/home/ubuntu/anaconda3/lib/python3.7/pickle.py", line 1085, in load
+    dispatch[key[0]](self)
+KeyError: 60
+[2019-03-11 02:09:22,401] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 02:09:22] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=20 HTTP/1.1" 500 -
+40.117.34.30 - - [11/Mar/2019 02:09:31] "GET / HTTP/1.1" 200 -
+40.117.34.30 - - [11/Mar/2019 02:09:31] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+40.117.34.30 - - [11/Mar/2019 02:09:31] "GET /swaggerui/swagger-ui.css HTTP/1.1" 304 -
+40.117.34.30 - - [11/Mar/2019 02:09:31] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 304 -
+40.117.34.30 - - [11/Mar/2019 02:09:31] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+40.117.34.30 - - [11/Mar/2019 02:09:32] "GET /swagger.json HTTP/1.1" 200 -
+[2019-03-11 02:09:48,848] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 02:09:48] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2015 HTTP/1.1" 500 -
+[2019-03-11 02:10:32,940] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 02:10:32] "GET /Predict/?Make=jhj&Model=jhjh&State=jhj&Mileage=87878&Year=87878 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 9, in <module>
+    rf = joblib.load('RF_modelcars.pkl')
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 598, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 526, in _unpickle
+    obj = unpickler.load()
+  File "/home/ubuntu/anaconda3/lib/python3.7/pickle.py", line 1085, in load
+    dispatch[key[0]](self)
+KeyError: 60
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 9, in <module>
+    rf = joblib.load('RF_modelcars.pkl')
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 598, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 526, in _unpickle
+    obj = unpickler.load()
+  File "/home/ubuntu/anaconda3/lib/python3.7/pickle.py", line 1085, in load
+    dispatch[key[0]](self)
+KeyError: 60
+[2019-03-11 02:11:55,482] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 02:11:55] "GET /Predict/?Make=Nissan&Model=MuranoAWD&State=MD&Mileage=31909&Year=2014 HTTP/1.1" 500 -
+[2019-03-11 02:11:57,649] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 02:11:57] "GET /Predict/?Make=Nissan&Model=MuranoAWD&State=MD&Mileage=31909&Year=2014 HTTP/1.1" 500 -
+[2019-03-11 02:14:10,595] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 02:14:10] "GET /Predict/?Make=Nissan&Model=MuranoAWD&State=MD&Mileage=31909&Year=2014 HTTP/1.1" 500 -
+[2019-03-11 02:19:04,840] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 02:19:04] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2018 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 9, in <module>
+    rf = joblib.load('RF_modelcars.pkl')
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 598, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 526, in _unpickle
+    obj = unpickler.load()
+  File "/home/ubuntu/anaconda3/lib/python3.7/pickle.py", line 1085, in load
+    dispatch[key[0]](self)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 352, in load_build
+    self.stack.append(array_wrapper.read(self))
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 195, in read
+    array = self.read_array(unpickler)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 146, in read_array
+    read_size, "array data")
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle_utils.py", line 235, in _read_bytes
+    r = fp.read(size - len(data))
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/compressor.py", line 488, in readinto
+    return io.BufferedIOBase.readinto(self, b)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/compressor.py", line 480, in read
+    return self._read_block(size)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/compressor.py", line 465, in _read_block
+    return b"".join(blocks)
+MemoryError
+40.117.34.30 - - [11/Mar/2019 03:05:15] "GET / HTTP/1.1" 200 -
+[2019-03-11 03:05:16,017] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 03:05:16] "GET /Predict/?Make=Nissan&Model=MuranoAWD&State=MD&Mileage=31909&Year=2014 HTTP/1.1" 500 -
+40.117.34.30 - - [11/Mar/2019 03:05:16] "GET /swagger.json HTTP/1.1" 200 -
+[2019-03-11 03:05:49,143] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 03:05:49] "GET /Predict/?Make=Nissan&Model=MuranoAWD&State=MD&Mileage=31909&Year=2014 HTTP/1.1" 500 -
+[2019-03-11 03:06:17,944] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 03:06:17] "GET /Predict/?Make=Nissan&Model=MuranoAWD&State=MD&Mileage=31909&Year=2014 HTTP/1.1" 500 -
+[2019-03-11 03:06:57,937] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 03:06:57] "GET /Predict/?Make=Ford&Model=EscapeFWD&State=OH&Mileage=23388&Year=2015 HTTP/1.1" 500 -
+[2019-03-11 03:11:34,092] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 03:11:34] "GET /Predict/?Make=Nissan&Model=MuranoAWD&State=MD&Mileage=31909&Year=2014 HTTP/1.1" 500 -
+[2019-03-11 03:11:47,983] ERROR in app: Exception on /Predict/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 69, in get
+    "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 14, in predict_car_value
+    df = pd.DataFrame([{'Year': Year_par, 'Mileage': Mileage_par, 'State':State_par, 'Make':Make_par, 'Model':Model_par}] )
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/category_encoders/binary.py", line 161, in transform
+    raise ValueError('Unexpected input dimension %d, expected %d' % (X.shape[1], self._dim,))
+ValueError: Unexpected input dimension 5, expected 6
+40.117.34.30 - - [11/Mar/2019 03:11:47] "GET /Predict/?Make=Nissan&Model=MuranoAWD&State=MD&Mileage=31909&Year=2014 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 9, in <module>
+    rf = joblib.load('RF_modelcars.pkl')
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 598, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 526, in _unpickle
+    obj = unpickler.load()
+  File "/home/ubuntu/anaconda3/lib/python3.7/pickle.py", line 1085, in load
+    dispatch[key[0]](self)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 339, in load_build
+    Unpickler.load_build(self)
+  File "/home/ubuntu/anaconda3/lib/python3.7/pickle.py", line 1549, in load_build
+    setstate(state)
+  File "sklearn/tree/_tree.pyx", line 670, in sklearn.tree._tree.Tree.__setstate__
+  File "sklearn/tree/_tree.pyx", line 706, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 39, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 2383864 bytes
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 9, in <module>
+    rf = joblib.load('RF_modelcars.pkl')
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 598, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 526, in _unpickle
+    obj = unpickler.load()
+  File "/home/ubuntu/anaconda3/lib/python3.7/pickle.py", line 1085, in load
+    dispatch[key[0]](self)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 352, in load_build
+    self.stack.append(array_wrapper.read(self))
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 195, in read
+    array = self.read_array(unpickler)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 141, in read_array
+    array = unpickler.np.empty(count, dtype=self.dtype)
+MemoryError
+Traceback (most recent call last):
+  File "api.py", line 5, in <module>
+    from Model_PriceCars import predict_car_value
+  File "/home/ubuntu/Uniandes/Proyecto 1st/Model_PriceCars.py", line 9, in <module>
+    rf = joblib.load('RF_modelcars.pkl')
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 598, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 526, in _unpickle
+    obj = unpickler.load()
+  File "/home/ubuntu/anaconda3/lib/python3.7/pickle.py", line 1085, in load
+    dispatch[key[0]](self)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 352, in load_build
+    self.stack.append(array_wrapper.read(self))
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 195, in read
+    array = self.read_array(unpickler)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 141, in read_array
+    array = unpickler.np.empty(count, dtype=self.dtype)
+MemoryError
