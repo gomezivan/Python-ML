@@ -1,7 +1,5 @@
-PK     TK^Æ2'   '      mimetypeapplication/vnd.oasis.opendocument.textPK     TK               Configurations2/progressbar/PK     TK               Configurations2/menubar/PK     TK               Configurations2/popupmenu/PK     TK               Configurations2/statusbar/PK     TK               Configurations2/toolbar/PK     TK               Configurations2/images/Bitmaps/PK     TK               Configurations2/accelerator/PK     TK               Configurations2/floater/PK     TK               Configurations2/toolpanel/PK   TK            
-   styles.xmlíZIã6¾Ï¯0dn´¼Ôf§«s0H€î0İ9Ì) %Êâ4E
-$å¥}IQ¢dÉ¥TõŒûPñ-|üŞÂGÒï~<lv RQÁŸ£å|ÍODJùş9úíó?ĞSôãû¿½YF²MER„k¤ô™5a®¶øU’oVTm9.ˆÚêd+JÂ½Ğ6äŞÚ©ÜˆU6UÜ2‡ÒšœôTaÃÛ‘Å»é3[æP:•ø8UØğ¦¡x&¦
-ŸC™@‰(J¬iÏŠ£üËs”k]nãøx<Îë¹ûx¹ÙlbKmN¾²’Ìr¥IL1“©x9_Æ· OµÏğ†&ñªØ9¬ñ…WÕa?9"ûh’ËÉ±a™»î]§Óİ»NCÙë|Ä'OñG Ú??´± ‹©sŞT‰¤åäe:îP^Ñ˜j\‚ZsW‹Å]ì¾îãUö£¤šÈ€=¹Ê`–4ˆ‹b4à[ÆÀÈÁ„©ç–fÑ£šïcIJ!ucH6½@:«&½r]°ñô2TÏº—i:È
-æ¬cH5tt äø]Ô©œ×°é9À–¡—D,SX§®
-,±áiÒ\ÒU¹oÊ~&*‹€­¢œJ"©!afÅ¶a”1ñ
-•õ^hè
+Ambos son algoritmos de refuerzo, que convierten a un conjunto de modelos dÃ©biles en un Ãºnico modelo mas fuerte. Ambos inicializan generalmente un Ã¡rbol de decisiones y crean de manera iterativa un arbol dÃ©bil que se agrega al arbol fuerte. 
+
+Gradient Boosting es tambiÃ©n un algoritmo de impulso, Por lo tanto, tambiÃ©n intenta crear un aprendiz fuerte a partir de un conjunto de aprendices dÃ©biles. Este algoritmo es similar a Adaptive Boosting (AdaBoost) pero difiere de Ã©l en ciertos aspectos. En este mÃ©todo, intentamos visualizar el problema de impulso como un problema de optimizaciÃ³n, es decir, asumimos una funciÃ³n de pÃ©rdida y tratamos de optimizarlo. Esta idea fue desarrollada por primera vez por Leo Breiman.
+
+XGBoost tiene una estructura similar a Gradient Boosting Classifier, sin embargo cuenta con una serie de caracterÃ­sticas particulares que potencian su rendimiento. Dentro de estas encontramos que los Ã¡rboles de decisiÃ³n que se crean con este algoritmo varÃ­an en cada iteraciÃ³n, tanto en la cantidad de nodos terminales como en el peso de cada una de las ramas. Adicional a esto, aplican extra randomisation parameter para reducir la correlaciÃ³n entre cada uno de los Ã¡rboles generados, lo que nos permite tener una mejor desempeÃ±o para el modelo, ya que entre menos relaciÃ³n tengamos entre los Ã¡rboles mejor serÃ¡ en ensamble de los mismos. AdemÃ¡s, este algoritmo tiende a ser mÃ¡s rÃ¡pido que Gradient Boosting Classifier.
