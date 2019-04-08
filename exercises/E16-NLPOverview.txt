@@ -1,0 +1,7 @@
+Shazam music
+Es una aplicación movil cliente servidor que permite identificar el nombre de las caciones y sus autores, esta tiene dos mecanismos de entrada principales:
+- Grabar una parte de la canción original (10 segundos aproximadamente)
+- Una persona puede cantar una parte de la canción
+La primera usa digital fingerprins para comparar el audio grabado desde la apliación cliente y es comparada con la base de datos de digital fingerprins de millones de canciones. 
+Por otra parte, la segunda usa componentes de procesamiento del lenguage natural para covertir el canto de la persona en texto, y este posteriormente será comparado con las letras de las cancionnes que se encuentran en la base de datos de Shazam
+De esta manera permiten identificar la canción a través de dos tecnicas diferentes.
