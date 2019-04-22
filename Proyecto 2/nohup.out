@@ -1,0 +1,96 @@
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+179.33.247.143 - - [21/Apr/2019 22:05:46] "GET / HTTP/1.1" 200 -
+179.33.247.143 - - [21/Apr/2019 22:05:47] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+179.33.247.143 - - [21/Apr/2019 22:05:47] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+179.33.247.143 - - [21/Apr/2019 22:05:47] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+179.33.247.143 - - [21/Apr/2019 22:05:47] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+179.33.247.143 - - [21/Apr/2019 22:05:49] "GET /swagger.json HTTP/1.1" 200 -
+179.33.247.143 - - [21/Apr/2019 22:05:49] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+[2019-04-21 22:06:17,159] ERROR in app: Exception on /Classification/ [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/nltk/corpus/util.py", line 86, in __load
+    root = nltk.data.find('{}/{}'.format(self.subdir, zip_name))
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/nltk/data.py", line 699, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  Attempted to load [93mcorpora/wordnet.zip/wordnet/[0m
+
+  Searched in:
+    - '/home/ubuntu/nltk_data'
+    - '/home/ubuntu/anaconda3/nltk_data'
+    - '/home/ubuntu/anaconda3/share/nltk_data'
+    - '/home/ubuntu/anaconda3/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/flask_restplus/marshalling.py", line 136, in wrapper
+    resp = f(*args, **kwargs)
+  File "api.py", line 55, in get
+    "result": clasff_movie(args['Title'],args['Plot'],args['Year'])
+  File "/home/ubuntu/Uniandes/Proy2/Model_Movie_CLF.py", line 22, in clasff_movie
+    title_clean = text_clean(title, remove_stop_words=False)
+  File "/home/ubuntu/Uniandes/Proy2/Model_Movie_CLF.py", line 84, in text_clean
+    words_document = [wordnet_lemmatizer.lemmatize(word) for word in words_document]
+  File "/home/ubuntu/Uniandes/Proy2/Model_Movie_CLF.py", line 84, in <listcomp>
+    words_document = [wordnet_lemmatizer.lemmatize(word) for word in words_document]
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/nltk/stem/wordnet.py", line 41, in lemmatize
+    lemmas = wordnet._morphy(word, pos)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/nltk/corpus/util.py", line 123, in __getattr__
+    self.__load()
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/nltk/corpus/util.py", line 88, in __load
+    raise e
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/nltk/corpus/util.py", line 83, in __load
+    root = nltk.data.find('{}/{}'.format(self.subdir, self.__name))
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/nltk/data.py", line 699, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - '/home/ubuntu/nltk_data'
+    - '/home/ubuntu/anaconda3/nltk_data'
+    - '/home/ubuntu/anaconda3/share/nltk_data'
+    - '/home/ubuntu/anaconda3/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+179.33.247.143 - - [21/Apr/2019 22:06:17] "GET /Classification/?Title=The%20Virginity%20Hit&Plot=four%20guys%20%2C%20%20one%20camera%20%2C%20%20and%20their%20experience%20chronicling%20the%20exhilarating%20and%20terrifying%20rite%20of%20passage%20%3A%20%20losing%20your%20virginity%20.%20%20as%20these%20guys%20help%20their%20buddy%20get%20laid%20%2C%20%20they%20%27%20ll%20have%20to%20survive%20friends%20with%20benefits%20%2C%20%20internet%20hookups%20%2C%20%20even%20porn%20stars%20during%20an%20adventure%20that%20proves%20why%20you%20will%20always%20remember%20your%20first%20.&Year=2010 HTTP/1.1" 500 -

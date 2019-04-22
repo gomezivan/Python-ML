@@ -2,54 +2,40 @@
 from flask import Flask
 from flask_restplus import Api, Resource, fields
 from sklearn.externals import joblib
-from Model_PriceCars import predict_car_value
+from Model_Movie_CLF import clasff_movie
 
 app = Flask(__name__)
 
 api = Api(
     app, 
     version='1.0', 
-    title='Estimador de precio vehicular',
+    title='Movie Genre Classification',
     description='Desarrollado por: Iván Gómez, Cristian Najera, Natalia Martínez')
 
-ns = api.namespace('Predict', 
-     description='Predict price')
+ns = api.namespace('Classification', 
+     description='Classification movie')
    
 parser = api.parser()
 
 parser.add_argument(
-    'Make', 
+    'Title', 
     type=str, 
     required=True, 
-    help='Car Maker', 
+    help='Title of the movie', 
     location='args')
 
 parser.add_argument(
-    'Model', 
+    'Plot', 
     type=str, 
     required=True, 
-    help='Car Model', 
-    location='args')
-
-parser.add_argument(
-    'State', 
-    type=str, 
-    required=True, 
-    help='State', 
-    location='args')
-
-parser.add_argument(
-    'Mileage', 
-    type=str, 
-    required=True, 
-    help='Mileage', 
+    help='Description of the movie', 
     location='args')
 
 parser.add_argument(
     'Year', 
     type=str, 
     required=True, 
-    help='Year', 
+    help='Year of the movie', 
     location='args')
 
 
@@ -66,7 +52,7 @@ class PredPriceApi(Resource):
         args = parser.parse_args()
         
         return {
-         "result": predict_car_value(args['Make'],args['Model'],args['State'],args['Mileage'],args['Year'])
+         "result": clasff_movie(args['Title'],args['Plot'],args['Year'])
         }, 200
     
     
